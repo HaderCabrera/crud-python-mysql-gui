@@ -54,8 +54,9 @@ pip install mysql-connector-python
     (1,"Athur",1),(2,"Hader",2),(3,"Pepito",3);
     ```
 2. Configuracion de la conexion [**Linea 15**]
+
     <figure>
-    <figcaption class= "center-text"><i>Config py/MySQL</i></figcaption>
+    <figcaption class= "center-text"><i></i></figcaption>
     <img src="img/mysql_config.png" alt="diagrama de flujo del modo de operación MIXER" width="380">
     </figure>
 
