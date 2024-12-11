@@ -54,14 +54,13 @@ pip install mysql-connector-python
     (1,"Athur",1),(2,"Hader",2),(3,"Pepito",3);
     ```
 2. Configuracion de la conexion [**Linea 15**]
-
     <figure>
     <figcaption class= "center-text"><i>Config py/MySQL</i></figcaption>
     <img src="img/mysql_config.png" alt="diagrama de flujo del modo de operación MIXER" width="380">
     </figure>
 
-> **Imagen final de la interfaz Tkinter**
 
+> **Imagen final de la interfaz Tkinter**
 <figure>
 <figcaption class= "center-text"><i>Imagen final de la aplicacion de escritorio.</i></figcaption>
 <img src="img/final_app.png" alt="diagrama de flujo del modo de operación MIXER" width="300">
@@ -73,4 +72,4 @@ Se genero el analisis desde terminal con el siguiente codigo:
 ```
 sonar-scanner.bat -D"sonar.projectKey=task_manager" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqp_211fe1c855f19e11da93e07ef3c5928ff61f96fb"
 ```
-[Ver informe en PDF]("https://github.com/HaderCabrera/crud-python-mysql-gui/blob/main/task_manager_SonarQube.pdf")
+[Ver informe en PDF](/task_manager_SonarQube.pdf)
