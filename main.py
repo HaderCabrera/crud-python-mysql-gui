@@ -28,7 +28,7 @@ class FormatTask:
             label.pack(pady=10)
 
             # Listbox para mostrar las tareas
-            self.task_list = Listbox(base, width=70, height=10)
+            self.task_list = Listbox(base, width=50, height=10)
             self.task_list.pack(pady=10)
 
             # Campo de entrada para tareas
