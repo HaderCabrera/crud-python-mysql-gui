@@ -6,6 +6,11 @@ Fecha: 29/11/2024
 
 ## Proyecto de escritorio para gestion de tareas.
 
+>**Tecnologias implementadas**
+1. python
+2. Tkinder
+3. MySQL
+
 >**Dependencias instaladas**
 
 ```
@@ -51,7 +56,7 @@ pip install mysql-connector-python
 2. Configuracion de la conexion [**Linea 15**]
 
     <figure>
-    <figcaption class= "center-text"><i>Configuracion de conexion con MySQL</i></figcaption>
+    <figcaption class= "center-text"><i>Config py/MySQL</i></figcaption>
     <img src="img/mysql_config.png" alt="diagrama de flujo del modo de operación MIXER" width="380">
     </figure>
 
@@ -68,4 +73,4 @@ Se genero el analisis desde terminal con el siguiente codigo:
 ```
 sonar-scanner.bat -D"sonar.projectKey=task_manager" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqp_211fe1c855f19e11da93e07ef3c5928ff61f96fb"
 ```
-[Ver informe en PDF]("task_manager_SonarQube.pdf")
+[Ver informe en PDF]("https://github.com/HaderCabrera/crud-python-mysql-gui/blob/main/task_manager_SonarQube.pdf")
